@@ -1,2 +1,2 @@
 # Pet_Shop
-Estudo de html semantico
+Projeto do estudo do html semantico
