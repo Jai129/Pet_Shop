@@ -1,37 +1,57 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
-    background-image: linear-gradient(to right, #510361, #e7d636);
+    background-image: linear-gradient(to right, #510361, #ce76c6);
 }
 
-.tela-login{
-    background-color: rgba(0,0, 0, 0.4);
+.tela-login {
+    background-color: rgba(0, 0, 0, 0.404);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px;
+    justify-content: center;
+    margin-left: 800px;
+    margin-top: 200px;
+    padding: 20px 50px 80px 50px;
     border-radius: 15px;
     color: white;
+    height: 385px;
+
 }
 
-input{
+.tela-login img {
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    padding: 20px 40px 0px 30px;
+    margin-left: 10px;
+
+}
+
+h1{
+    margin-left: 65px;
+}
+
+input {
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
+    border-radius: 10px;
 }
 
-button{
+button {
     background-color: #e9d736;
     border: none;
     padding: 15px;
-    width: 100%;
+    width: 220px;
     border-radius: 10px;
     color: white;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
-button:hover{
+button:hover {
     background-color: #e9d736;
     cursor: pointer;
+}
+a{
+    color: #ccc;
 }
